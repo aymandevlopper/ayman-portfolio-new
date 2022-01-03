@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ body{
+     background-color: rgb(33, 48, 75);
+ }
+ 
+.form{
+    background-color: rgb(48, 65, 99);
+    border-radius: 10px;
+    width: 250px;
+    position:absolute;
+    top: 200px ;
+    left: 500px;
+    padding: 30px;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 3px 3px 20px 5px rgb(19, 31, 43);
+}
+
+.login{
+    color: rgb(1, 25, 41);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.input1{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.input2{
+    padding: 15px;
+}
+.input3{
+    padding: 15px;
+}
+
+
+.inp1{
+   background: none;
+   border: none;
+  border: 2px solid rgb(245, 231, 231);
+  border-radius: 15px;
+  font-size:0.95em;
+   width: 170px;
+   height: 27px;
+   text-align: center;
+}
+.inp2{
+    
+  width: 170px;
+  height: 27px;
+  text-align: center;
+  border: none;
+  border: 2px solid rgb(221, 212, 212);
+  border-radius: 15px;
+  font-size: 0.95em;
+  background: none;
+}
+
+.inp3{
+  width: 170px;
+  height: 27px;
+  text-align: center;
+  border: none;
+  border: 2px solid rgb(223, 215, 215);
+  border-radius: 15px;
+  font-size: 0.95em;
+  background: none;
+}
+.input1 :hover {
+    transition: 0.5s;
+     color: rgb(0, 0, 0);
+     width: 200px;
+     border: 2px solid;
+} 
+.input2 :hover {
+    transition: ;
+    transition:0.5s;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    border: 2px solid;
+}
+.input3 :hover{
+    transition: 0.5s;
+     color: rgb(0, 0, 0);
+     width: 200px;
+     border: 2px solid;
+}
+
+.button{
+    padding-top: 20px;
+    align-content: center;
+   
+}
+ 
+.submit {
+    color: rgb(23, 60, 131);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(218, 201, 201);
+}
+.button a{
+    color: darkblue;
+  
+   text-decoration: none;
+   font-family:'Ubuntu', sans-serif;
+}
+
+@media(max-width:1000px)
+{
+    .form{
+      left:15px;
+      margin-top: -70px;
+      width:200px;
+    }
+
+}
+
